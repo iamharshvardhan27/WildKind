@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Slider |Dev Mode</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/testi_styles.css">
+    
+</head>
+<body>
+
+  <header class="header" data-header style="background-color: hsl(0, 0%, 13%);">
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">WildKind</a>
+      </h1>
+      
+      <select name="language" class="lang-switch">
+        <option value="english">English</option>
+        <option value="french">French</option>
+        <option value="spanish">Spanish</option>
+      </select>
+  
+      <button class="nav-open-btn" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+  
+      <nav class="navbar" data-navbar>
+  
+        <button class="nav-close-btn" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+  
+        <a href="#" class="logo">WildKind</a>
+  
+        <ul class="navbar-list">
+  
+          <li>
+            <a href="/pages/wildkindhome/wildkind.html" class="navbar-link" data-nav-link>
+              <span>Home</span>
+  
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="/pages/about/about.html" class="navbar-link" data-nav-link>
+              <span>About</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+          </li>
+  
+          <li>
+            <a href="/pages/wildkindhome/wildkind.html#event" class="navbar-link" data-nav-link>
+              <span>Event</span>
+  
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="/pages/donation/donation.html" class="navbar-link" data-nav-link>
+              <span>Donate</span>
+  
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Testimonial</span>
+  
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="/pages/gallery/gallery.html" class="navbar-link" data-nav-link>
+              <span>Gallary</span>
+  
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="/pages/wildkindhome/wildkind.html#contact" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+  
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+  
+        </ul>
+  
+      </nav>
+  
+      <div class="header-action">
+  
+        <!-- <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button> -->
+  
+        <button >
+          <a class="btn btn-primary" href="/pages/payment gateway/index.html">Donation <ion-icon name="heart" aria-hidden="true"></ion-icon></a>
+        </button>
+  
+      </div>
+  
+    </div>
+  </header>
+
+
+  
+
+
+  <section class="swiper mySwiper">
+
+    <p class="section-subtitle">
+      <img src="/pages/Testimonals/images/subtitle-img-green.png" width="32" height="10" alt="Wavy line">
+  
+      <span>Feedback from our Supporters </span>
+    </p>
+
+
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/pages/Testimonals/images/user1.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Entrepreneur</span>
+          <span class="card__name">Vanessa Martinez</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/pages/Testimonals/images/user2.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Zoologists</span>
+          <span class="card__name">Sarah Bowen</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/pages/Testimonals/images/user3.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Conservationists</span>
+          <span class="card__name">David Murphy</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/pages/Testimonals/images/user4.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Environmentalists</span>
+          <span class="card__name">Kelsey West</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/pages/Testimonals/images/user5.jpg" alt="card image">
+        </div>
+
+      <div class="card__content">
+        <span class="card__title">Biologists</span>
+        <span class="card__name">Adam Bobrow</span>
+        <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+        <button class="card__btn">View More</button>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      initialSlide: 2, // Set initial slide index to 3rd slide (index starts from 0)
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+  
+  
+  <script src="./script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</body>
+</html>

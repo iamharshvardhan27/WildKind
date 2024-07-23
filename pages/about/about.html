@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WildKind - Love for Wildlife, Foundation of Preservation</title>
+ 
+  <link rel="icon" href="./favicon.svg">
+ 
+  <link rel="stylesheet" href="./assets/css/aboutstyle.css">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <script src="./assets/js/aboutscript.js"></script>
+  
+ 
+</head>
+<body>
+  <header class="header" data-header style="background-color: hsl(0, 0%, 13%);">
+        <div class="container">
+          <h1>
+            <a href="#" class="logo">WildKind</a>
+          </h1>
+          
+          <select name="language" class="lang-switch">
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="spanish">Spanish</option>
+          </select>
+    
+          <button class="nav-open-btn" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+          <nav class="navbar" data-navbar>
+    
+            <button class="nav-close-btn" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+    
+            <a href="#" class="logo">WildKind</a>
+    
+            <ul class="navbar-list">
+    
+              <li>
+                <a href="/pages/wildkindhome/wildkind.html" class="navbar-link" data-nav-link>
+                  <span>Home</span>
+    
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>
+                  <span>About</span>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+              </a>
+              </li>
+
+              <li>
+                <a href="/pages/wildkindhome/wildkind.html#event" class="navbar-link" data-nav-link>
+                  <span>Event</span>
+    
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="/pages/Testimonals/testimonals.html" class="navbar-link" data-nav-link>
+                  <span>Testimonials</span>
+    
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="/pages/gallery/gallery.html" class="navbar-link" data-nav-link>
+                  <span>Gallary</span>
+    
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="/pages/wildkindhome/wildkind.html#contact" class="navbar-link" data-nav-link>
+                  <span>Contact</span>
+                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </nav>
+    
+          <div class="header-action">
+    
+            <!-- <button class="search-btn" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+            </button> -->
+    
+            <a class="btn btn-primary" href="/pages/donation/donation.html">Donation <ion-icon name="heart" aria-hidden="true"></ion-icon></a>
+    
+          </div>
+    
+        </div>
+      </header>
+      
+      
+
+      
+      <section class="section about" id="about" style="margin-top: 50px;">
+        
+        <div class="container">
+
+          <div class="about-banner">
+
+            <h2 class="deco-title">About Us</h2>
+             
+            <img src="./assets/images/deco-img.png" width="58" height="261" alt="" class="deco-img">
+
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="./assets/images/about-banner-1.jpg" width="315" height="380" loading="lazy" alt="Tiger"
+                  class="about-img w-100">
+
+                <img src="./assets/images/about-banner-2.jpg" width="386" height="250" loading="lazy" alt="Panda"
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="./assets/images/about-banner-3.jpg" width="250" height="277" loading="lazy" alt="Elephant"
+                  class="about-img about-img-3 w-100">
+
+                <img src="./assets/images/about-banner-4.jpg" width="315" height="380" loading="lazy" alt="Deer"
+                  class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+            <p class="section-subtitle">
+              <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+              <span>Why Choose Us</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              Raise Your Hand to Save <strong>World Animals Life</strong>
+            </h2>
+
+            <ul class="tab-nav">
+              <li>
+                <button class="tab-btn active" onclick="showTab('mission')" data-tab="mission">Our Mission</button>
+              </li>
+              <li>
+                <button class="tab-btn" onclick="showTab('vision')" data-tab="vision">Our Vision</button>
+              </li>
+              <li>
+                <button class="tab-btn" onclick="showTab('plan')" data-tab="plan">Next Plan</button>
+              </li>
+            </ul>
+            
+            
+            <div class="tab-content" id="tab-content">
+              <div id="mission-content" class="tab-pane active">
+                <p class="section-text">
+                  At the heart of our mission is the belief that every species deserves a chance to thrive. 
+                  We work tirelessly to protect wildlife, restore habitats, and inspire stewardship of our natural 
+                  world. In our unwavering commitment, we strive to cultivate a future where the delicate 
+                  balance of nature flourishes, enriching the lives of all species and ensuring a legacy of 
+                  biodiversity for generations to come.
+                </p>
+                <ul class="tab-list">
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Charity For Foods</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Charity For Shelter</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Charity For Water</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Charity For Medical</p>
+                  </li>
+                </ul>
+                <button class="btn learnbtn">
+                  <span>Learn More Us</span>
+                  <ion-icon name="heart" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+
+
+
+              <div id="vision-content" class="tab-pane" style="display: none;">
+                <p class="section-text">
+                  Our vision encompasses a world where biodiversity thrives in harmony with humanity. 
+                  We envision ecosystems teeming with life, where every species plays a vital role in maintaining 
+                  ecological balance. Through our unwavering dedication, we strive to create a future where
+                   wildlife habitats are protected, ecosystems are restored, and humans coexist sustainably 
+                   with nature.
+                </p>
+                <ul class="tab-list">
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Promoting Sustainable Practices</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Advocating for Wildlife Protection Laws</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Empowering Local Communities in Conservation Efforts</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Collaborating with Global Partners for Conservation Initiatives</p>
+                  </li>
+                </ul>
+                <button class="btn learnbtn">
+                  <span>Learn More Us</span>
+                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+
+
+
+
+              </div>
+              <div id="plan-content" class="tab-pane" style="display: none;">
+                <p class="section-text">
+                  Restore degraded habitats for wildlife preservation is our primary goal. 
+                  Through reforestation, wetland restoration, and coral reef rehabilitation projects, 
+                  we aim to not only create essential habitats but also foster biodiversity and ecological 
+                  resilience. 
+                </p>
+                <ul class="tab-list">
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Reforestation Projects</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Wetland Restoration Initiatives</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Coral Reef Rehabilitation Programs</p>
+                  </li>
+                  <li class="tab-item">
+                    <div class="item-icon">
+                      <ion-icon name="checkmark-circle"></ion-icon>
+                    </div>
+                    <p class="tab-text">Wildlife Corridor Creation</p>
+                  </li>
+                  
+                </ul>
+                <button class="btn learnbtn">
+                  <span>Learn More Us</span>
+                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+            
+      </section>
+
+      <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>What We Do</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            We Work Differently to <strong>keep The World Safe</strong>
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Save Nature</h3>
+
+                <p class="card-text">
+                  Preserving nature is imperative for sustaining life on Earth, providing essential resources such as 
+                  clean air, water, and food.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Save Ecology</h3>
+
+                <p class="card-text">
+                  Protecting ecology is crucial for maintaining the delicate balance of 
+                  ecosystems, ensuring the interdependence of species and habitats.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flower-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Tree Plantation</h3>
+
+                <p class="card-text">
+                  Tree plantation enriches the environment by combating climate change, 
+                  providing oxygen, and enhancing biodiversity
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Clear Ocean</h3>
+
+                <p class="card-text">
+                  Cleaning oceans is essential for preserving marine ecosystems, supporting biodiversity, 
+                  and ensuring sustainable fisheries. 
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      
+      
+      <script src="./assets/js/aboutscript2.js"></script>
+      <!-- 
+        - ionicon link
+      -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+
+</body>
+</html>
